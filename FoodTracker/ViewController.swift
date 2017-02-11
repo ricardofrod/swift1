@@ -37,8 +37,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         nameTextField.text = textField.text
     }
     
- //MARK: Actions
-
     @IBAction func setDefaultLabelText(_ sender: UIButton){
         nameTextField.text="Escreva aqui..."
     }
